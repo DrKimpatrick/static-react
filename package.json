@@ -7,6 +7,10 @@
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1"
   },
+  "engines": {
+    "yarn": "1.6.0",
+    "node": "8.11.2"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
