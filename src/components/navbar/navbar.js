@@ -13,7 +13,7 @@ const Navbar = () => {
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <Link to="/" class="navbar-brand">Creatures</Link>
+        <Link to="/" class="navbar-brand"><img src={require("../../static/Creatures-Logo_172x24.png")} /></Link>
       </div>
 
       {/* Collect the nav links, forms, and other content for toggling */}

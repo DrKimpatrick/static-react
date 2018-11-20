@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Navbar from './components/navbar/navbar';
 import About from './components/about/about';
 import Carousel from './components/carousel/carousel';
-import Projects from './components/projects/projects.js';
+import Projects from './components/projects/projects';
+import Services from './components/services/services';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <div className="black-color">
           <About />
           <Projects />
+          <Services />
         </div>
 
       </div>
