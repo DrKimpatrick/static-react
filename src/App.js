@@ -7,13 +7,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="row">
-            <div col-lg-12>
-              <Navbar />;
-              <Carousel />;
-              <About />;
-            </div>
-        </div>
+        <Navbar />;
+        <Carousel />;
+        
       </div>
     );
   }

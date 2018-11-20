@@ -2,11 +2,7 @@ import React from 'react';
 import '../../styles/carousel/carousel.css'
 
 const Carousel = () => {
-  return <div className="row">
-            <div className="col-sm-12">
-                <img src={require("../../static/Kalabanda.jpg")} className="img-responsive img-size" />
-            </div>
-        </div>
+  return <img src={require("../../static/Kalabanda.jpg")} className="img-responsive" />
 }
 
 export default Carousel;
