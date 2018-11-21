@@ -21,11 +21,13 @@ p b{
 
 .heading{
   color: white;
+
 }
 
 h1{
   border-bottom: 5px solid blue;
-  width: 188px;
+  font-size: 25px;
+  width: 150px;
 }
 
 .navbar{

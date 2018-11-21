@@ -4,6 +4,7 @@ import About from './components/about/about';
 import Carousel from './components/carousel/carousel';
 import Projects from './components/projects/projects';
 import Services from './components/services/services';
+import OurWork from './components/ourWork/ourWork';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
           <About />
           <Projects />
           <Services />
+          <OurWork />
         </div>
 
       </div>
