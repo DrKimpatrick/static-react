@@ -4,7 +4,7 @@ import '../../styles/about/about.css';
 const About = () => {
   return <div className="container about-margin">
     <div className="row">
-        <div className="col-xs-10 offset-xs-1 col-md-6">
+        <div className="col-xs-12 col-md-6">
             <h1 className="heading">ABOUT US</h1>
 
             <p>
@@ -23,7 +23,7 @@ const About = () => {
             </p>
 
         </div>
-        <div className="col-xs-10 offset-xs-1 col-md-6 warning">
+        <div className="col-xs-12 col-md-6">
             <img src={require("../../static/aboutus.jpg")} className="img-responsive img-size" />
         </div>
      </div>

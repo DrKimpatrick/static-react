@@ -9,14 +9,14 @@ const Projects = () => {
       </div>
   </div>
   <div className="row">
-      <div className="col-xs-10 offset-xs-1 col-md-6">
+      <div className="col-xs-12 col-md-6">
         <div align="center" class="embed-responsive embed-responsive-16by9">
           <video autoplay loop class="embed-responsive-item">
               <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4" />
           </video>
         </div>
       </div>
-      <div className="col-xs-10 offset-xs-1 col-md-6">
+      <div className="col-xs-12 col-md-6">
         <h3 className="akalabanda-heading"><span id="pipe"></span>A KALABANDA ATE MY HOMEWORK</h3>
         <p>
             This is the first official project from Creatures Animation.
