@@ -6,7 +6,7 @@ const OurWork = () => {
             <div className="row">
                 <div className="col-xs-8 col-xs-offset-2 text-center">
                 <div className="row">
-                    <div className="col-xs-12"><center><h1 className="heading">OUR WORK</h1></center></div>
+                    <div className="col-xs-12"><center><h1 className="heading"><u>OUR WORK</u></h1></center></div>
                 </div>
                 <div className="row">
                     <div className="col-xs-12">

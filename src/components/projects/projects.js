@@ -5,7 +5,7 @@ const Projects = () => {
   return <div className="container">
   <div className="row">
       <div className="col-xs-12">
-          <h1 className="heading">PROJECTS</h1>
+          <h1 className="heading"><u>PROJECTS</u></h1>
       </div>
   </div>
   <div className="row">

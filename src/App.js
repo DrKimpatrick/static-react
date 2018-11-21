@@ -5,6 +5,7 @@ import Carousel from './components/carousel/carousel';
 import Projects from './components/projects/projects';
 import Services from './components/services/services';
 import OurWork from './components/ourWork/ourWork';
+import ContactUs from './components/contactUs/contactUs';
 
 class App extends Component {
   render() {
@@ -17,8 +18,9 @@ class App extends Component {
           <Projects />
           <Services />
           <OurWork />
+          <ContactUs />
         </div>
-
+        
       </div>
     );
   }

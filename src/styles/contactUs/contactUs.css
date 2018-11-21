@@ -1,0 +1,22 @@
+.contact-div{
+  margin-bottom: 30px;
+}
+
+.contact-list{
+  height: 1px;
+  margin-right: 10px;
+
+
+}
+
+#email{
+  border: 3px solid #cac701;
+}
+
+#phone{
+  border: 3px solid #0c29bb;
+}
+
+#address{
+  border: 3px solid #d30880;
+}

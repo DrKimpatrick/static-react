@@ -1,4 +1,11 @@
-.container{
-  padding-left:0px;
-  padding-right:0px;
+.navbar{
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+
+}
+
+.navbar-inverse {
+  opacity: 0.5;
+  color: black;
 }

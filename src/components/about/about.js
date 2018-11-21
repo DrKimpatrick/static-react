@@ -5,7 +5,7 @@ const About = () => {
   return <div className="container about-margin">
     <div className="row">
         <div className="col-xs-12 col-md-6">
-            <h1 className="heading">ABOUT US</h1>
+            <h1 className="heading"><u>ABOUT US</u></h1>
 
             <p>
                 Creatures Animation is a 3D animation studio based in Uganda,

@@ -9,6 +9,16 @@ body{
   padding: 0px;
 }
 
+.container-fluid{
+  margin: 0px;
+  padding: 0px;
+}
+
+.row{
+  margin: 0px;
+  padding: 0px;
+}
+
 p{
   color: silver;
   font-size: 16px;
@@ -24,28 +34,9 @@ p b{
 
 }
 
-h1{
-  border-bottom: 5px solid blue;
-  font-size: 25px;
-  width: 150px;
-}
-
-.navbar{
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
-
-}
-
-.navbar-inverse {
-  opacity: 0.5;
-  color: black;
-}
-
-.top-padding{
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
+h1 u{
+  text-decoration: none;
+  border-bottom: 5px solid #0084ff;
 
 }
 
