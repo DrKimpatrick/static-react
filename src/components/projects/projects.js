@@ -10,14 +10,14 @@ const Projects = () => {
   </div>
   <div className="row">
       <div className="col-xs-12 col-md-6">
-        <div align="center" class="embed-responsive embed-responsive-16by9">
-          <video autoplay loop class="embed-responsive-item">
+        <div align="center" className="embed-responsive embed-responsive-16by9">
+          <video autoplay loop className="embed-responsive-item">
               <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4" />
           </video>
         </div>
       </div>
       <div className="col-xs-12 col-md-6">
-        <h3 className="akalabanda-heading"><span id="pipe"></span>A KALABANDA ATE MY HOMEWORK</h3>
+        <h3 className="akalabanda-heading"><span id="pipe" />A KALABANDA ATE MY HOMEWORK</h3>
         <p>
             This is the first official project from Creatures Animation.
             The story brings a twist to the infamous excuse "a dog ate my homework".
@@ -33,7 +33,7 @@ const Projects = () => {
         </p>
       </div>
   </div>
-         </div>
-}
+</div>
+};
 
 export default Projects;

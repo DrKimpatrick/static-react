@@ -6,7 +6,7 @@ const Services = () => {
               <div className="row">
                   <div className="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
                   <div className="row service-header">
-                      <div className="col-xs-12"><center><h1 className="heading"><u>SERVICES</u></h1></center></div>
+                      <div className="col-xs-12 text-center"><h1 className="heading"><u>SERVICES</u></h1></div>
                   </div>
                   <div className="row">
                       <div className="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0">

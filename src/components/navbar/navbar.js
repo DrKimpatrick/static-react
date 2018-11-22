@@ -1,34 +1,33 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import '../../styles/navbar/navbar.css';
+import '../../styles/navbar/navbar.scss';
 
 const Navbar = () => {
 
-  return <nav class="navbar navbar-inverse navbar-fixed-top navbar-text">
-    <div class="container">
-      {/*Brand and toggle get grouped for better mobile display */}
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+  return <nav className="navbar navbar-inverse navbar-fixed-top navbar-text">
+    <div className="container">
+
+      <div className="navbar-header">
+        <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span className="sr-only">Toggle navigation</span>
+          <span className="icon-bar" />
+          <span className="icon-bar" />
+          <span className="icon-bar" />
         </button>
-        <Link to="/" class="navbar-brand"><img src={require("../../static/Creatures-Logo_172x24.png")} /></Link>
+        <Link to="/" class="navbar-brand"><img src={require("../../static/Creatures-Logo_172x24.png")} alt=""/></Link>
       </div>
 
-      {/* Collect the nav links, forms, and other content for toggling */}
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav  navbar-right">
-          <li><a href="#">ABOUT US</a></li>
-          <li><a href="#">PROJECTS</a></li>
-          <li><a href="#">EXPLAINER VIDEOS</a></li>
-          <li><a href="#">PRESS</a></li>
+      <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul className="nav navbar-nav  navbar-right">
+          <li><Link to="/" className="about">ABOUT US</Link></li>
+          <li><Link to="/">PROJECTS</Link></li>
+          <li><Link to="/">EXPLAINER VIDEOS</Link></li>
+          <li><Link to="/">PRESS</Link></li>
         </ul>
-      </div> {/* .navbar-collapse */}
-    </div> {/* .container-fluid */}
+      </div>
+    </div>
 
 </nav>
-}
+};
 
 export default Navbar;
