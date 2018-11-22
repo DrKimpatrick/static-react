@@ -10,7 +10,7 @@ const Services = () => {
                   </div>
                   <div className="row">
                       <div className="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0">
-                          <img src={require("../../static/img1.jpg")} className="img-responsive"/>
+                          <img src={require("../../static/img1.jpg")} alt={"MotionGraphics"} className="img-responsive"/>
                           <div className="service-text-area">
                             <h5>MotionGraphics</h5>
                             <p>
@@ -22,7 +22,7 @@ const Services = () => {
                       </div>
 
                       <div className="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0">
-                          <img src={require("../../static/img1.jpg")} className="img-responsive"/>
+                          <img src={require("../../static/img1.jpg")} alt={"explainer video"} className="img-responsive"/>
                           <div className="service-text-area">
                             <h5>ExplainerVideos</h5>
                             <p>Explain your products &
@@ -33,7 +33,7 @@ const Services = () => {
                       </div>
 
                       <div className="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0">
-                          <img src={require("../../static/img1.jpg")} className="img-responsive"/>
+                          <img src={require("../../static/img1.jpg")} alt={"2D animation"} className="img-responsive"/>
                           <div className="service-text-area">
                             <h5>2D Animation</h5>
                             <p>Art comes to life
@@ -44,7 +44,7 @@ const Services = () => {
                       </div>
 
                       <div className="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0">
-                          <img src={require("../../static/img1.jpg")} className="img-responsive"/>
+                          <img src={require("../../static/img1.jpg")} alt={"3D animation"} className="img-responsive"/>
                           <div className="service-text-area">
                             <h5>3D Animation</h5>
                             <p>
@@ -58,6 +58,6 @@ const Services = () => {
                   </div>
               </div>
          </div>
-}
+};
 
 export default Services;
