@@ -6,6 +6,14 @@
 }
 
 .navbar-inverse {
-  opacity: 0.5;
-  color: black;
+  opacity: 0.3;
+  /* background-color: silver; */
+}
+
+.navbar-inverse:hover{
+  opacity: 0.7;
+}
+
+.navbar-nav{
+  color: green;
 }

@@ -19,11 +19,11 @@ const Navbar = () => {
 
       {/* Collect the nav links, forms, and other content for toggling */}
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav --> navbar-right">
-          <li><Link to="/">ABOUT US</Link></li>
-          <li><Link to="/">PROJECTS</Link></li>
-          <li><Link to="/">EXPLAINER VIDEOS</Link></li>
-          <li><Link to="/">PRESS</Link></li>
+        <ul class="nav navbar-nav  navbar-right">
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">PROJECTS</a></li>
+          <li><a href="#">EXPLAINER VIDEOS</a></li>
+          <li><a href="#">PRESS</a></li>
         </ul>
       </div> {/* .navbar-collapse */}
     </div> {/* .container-fluid */}
