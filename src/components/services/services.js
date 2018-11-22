@@ -4,12 +4,12 @@ import '../../styles/services/services.css';
 const Services = () => {
   return < div className="container services-margin">
               <div className="row">
-                  <div className="col-xs-8 col-xs-offset-2 text-center">
+                  <div className="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
                   <div className="row service-header">
                       <div className="col-xs-12"><center><h1 className="heading"><u>SERVICES</u></h1></center></div>
                   </div>
                   <div className="row">
-                      <div className="col-xs-4 col-xs-offset-4 col-sm-3 col-sm-offset-0">
+                      <div className="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0">
                           <img src={require("../../static/img1.jpg")} className="img-responsive"/>
                           <div className="service-text-area">
                             <h5>MotionGraphics</h5>
@@ -21,7 +21,7 @@ const Services = () => {
                           </div>
                       </div>
 
-                      <div className="col-xs-4 col-xs-offset-4 col-sm-3 col-sm-offset-0">
+                      <div className="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0">
                           <img src={require("../../static/img1.jpg")} className="img-responsive"/>
                           <div className="service-text-area">
                             <h5>ExplainerVideos</h5>
@@ -32,7 +32,7 @@ const Services = () => {
                           </div>
                       </div>
 
-                      <div className="col-xs-4 col-xs-offset-4 col-sm-3 col-sm-offset-0">
+                      <div className="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0">
                           <img src={require("../../static/img1.jpg")} className="img-responsive"/>
                           <div className="service-text-area">
                             <h5>2D Animation</h5>
@@ -43,7 +43,7 @@ const Services = () => {
                           </div>
                       </div>
 
-                      <div className="col-xs-4 col-xs-offset-4 col-sm-3 col-sm-offset-0">
+                      <div className="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0">
                           <img src={require("../../static/img1.jpg")} className="img-responsive"/>
                           <div className="service-text-area">
                             <h5>3D Animation</h5>
