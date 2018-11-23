@@ -14,7 +14,7 @@ const Navbar = () => {
           <span className="icon-bar" />
           <span className="icon-bar" />
         </button>
-        <Link to="/" class="navbar-brand"><img src={require("../../static/Creatures-Logo_172x24.png")} alt=""/></Link>
+        <Link to="/" class="navbar-brand"><img src={require("../../static/Creatures-Logo_172x24.png")} className="logo"/></Link>
       </div>
 
       <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
