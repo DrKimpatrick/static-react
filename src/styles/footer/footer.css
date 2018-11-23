@@ -1,6 +1,5 @@
 .footer-margin{
     margin-top: 60px;
-    /*margin-bottom: 60px;*/
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -8,3 +7,34 @@
 .copyright{
     margin-top: 20px;
 }
+
+.icon-color{
+    color: #51a1d4;
+    font-size: 25px;
+    background-color: #1a1a1a;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.parent-icon-row{
+    display: flex;
+    width: 100%;
+}
+
+.icon-row{
+    display: flex;
+    width: 100%;
+}
+
+.icon-column{
+    width: 50%;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 767px) {
+    .icon-row{
+        display: flex;
+        width: 100%;
+    }
+}
+

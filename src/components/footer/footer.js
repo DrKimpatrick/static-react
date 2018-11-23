@@ -4,19 +4,23 @@ import '../../styles/footer/footer.css';
 const Footer = () => {
   return <div className="container footer-margin">
             <div className="row">
-                <div className="col-xs-12 col-md-4 col-md-offset-4">
-                    <div className="row">
-                        <div className="col-xs-4 col-xs-offset-4 col-sm-4 col-sm-offset-4  col-md-3 col-md-offset-0">
-                            <img src={require("../../static/img1.jpg")} className="img-responsive img-circle" />
+                <div className="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4">
+                    <div className="parent-icon-row">
+                        <div className="icon-row">
+                            <div className="icon-column">
+                                <i className="fa fa-facebook icon-color" />
+                            </div>
+                            <div className="icon-column">
+                                <i className="fa fa-twitter icon-color" />
+                            </div>
                         </div>
-                        <div className="col-xs-4 col-xs-offset-4 col-sm-4 col-sm-offset-4  col-md-3 col-md-offset-0">
-                            <img src={require("../../static/img1.jpg")} className="img-responsive img-circle" />
-                        </div>
-                        <div className="col-xs-4 col-xs-offset-4 col-sm-4 col-sm-offset-4  col-md-3 col-md-offset-0">
-                            <img src={require("../../static/img1.jpg")} className="img-responsive img-circle" />
-                        </div>
-                        <div className="col-xs-4 col-xs-offset-4 col-sm-4 col-sm-offset-4  col-md-3 col-md-offset-0">
-                            <img src={require("../../static/img1.jpg")} className="img-responsive img-circle" />
+                        <div className="icon-row">
+                            <div className="icon-column">
+                                <i className="fa fa-youtube icon-color" />
+                            </div>
+                            <div className="icon-column">
+                                <i className="fa fa-instagram icon-color" />
+                            </div>
                         </div>
                     </div>
                 </div>
