@@ -8,15 +8,15 @@ const Carousel = () => {
                   {/*Wrapper for slides*/}
                   <div className="carousel-inner">
                       <div className="item active">
-                          <img src={require("../../static/Kalabanda.jpg")} alt={""} className="img-responsive img-size" />
+                          <img src={require("../../static/Kalabanda.jpg")} className="img-responsive img-size" />
                       </div>
 
                       <div className="item">
-                          <img src={require("../../static/Kalabanda.jpg")} alt={""} className="img-responsive img-size" />
+                          <img src={require("../../static/Kalabanda.jpg")} className="img-responsive img-size" />
                       </div>
 
                       <div className="item">
-                          <img src={require("../../static/Kalabanda.jpg")} alt={""} className="img-responsive img-size" />
+                          <img src={require("../../static/Kalabanda.jpg")} className="img-responsive img-size" />
                       </div>
                   </div>
 

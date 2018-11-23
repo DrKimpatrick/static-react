@@ -12,25 +12,25 @@ const OurWork = () => {
                         <div className="col-xs-12">
                             <div className="row">
                                 <div className="col-xs-12 col-sm-4 col-margin-bottom col-margin-top top-col-margin">
-                                    <img src={require("../../static/img2.jpg")} alt={"image"} className="img-responsive" />
+                                    <img src={require("../../static/img2.jpg")} className="img-responsive" />
                                 </div>
                                 <div className="col-xs-12 col-sm-4 col-margin-bottom col-margin-top">
-                                    <img src={require("../../static/img2.jpg")} alt={"image"} className="img-responsive" />
+                                    <img src={require("../../static/img2.jpg")} className="img-responsive" />
                                 </div>
                                 <div className="col-xs-12 col-sm-4 col-margin-bottom col-margin-top">
-                                    <img src={require("../../static/img2.jpg")} alt={"image"} className="img-responsive" />
+                                    <img src={require("../../static/img2.jpg")} className="img-responsive" />
                                 </div>
                             </div>
 
                             <div className="row work-row-margin">
                                 <div className="col-xs-12 col-sm-4 col-margin-bottom">
-                                    <img src={require("../../static/img2.jpg")} alt={"image"} className="img-responsive" />
+                                    <img src={require("../../static/img2.jpg")} className="img-responsive" />
                                 </div>
                                 <div className="col-xs-12 col-sm-4 col-margin-bottom">
-                                    <img src={require("../../static/img2.jpg")} alt={"image"} className="img-responsive" />
+                                    <img src={require("../../static/img2.jpg")} className="img-responsive" />
                                 </div>
                                 <div className="col-xs-12 col-sm-4 col-margin-bottom">
-                                    <img src={require("../../static/img2.jpg")} alt={"image"} className="img-responsive" />
+                                    <img src={require("../../static/img2.jpg")} className="img-responsive" />
                                 </div>
                             </div>
                         </div>

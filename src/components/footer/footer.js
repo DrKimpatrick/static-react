@@ -7,16 +7,16 @@ const Footer = () => {
                 <div className="col-xs-12 col-md-4 col-md-offset-4">
                     <div className="row">
                         <div className="col-xs-4 col-xs-offset-4 col-sm-4 col-sm-offset-4  col-md-3 col-md-offset-0">
-                            <img src={require("../../static/img1.jpg")} alt="" className="img-responsive img-circle" />
+                            <img src={require("../../static/img1.jpg")} className="img-responsive img-circle" />
                         </div>
                         <div className="col-xs-4 col-xs-offset-4 col-sm-4 col-sm-offset-4  col-md-3 col-md-offset-0">
-                            <img src={require("../../static/img1.jpg")} alt="" className="img-responsive img-circle" />
+                            <img src={require("../../static/img1.jpg")} className="img-responsive img-circle" />
                         </div>
                         <div className="col-xs-4 col-xs-offset-4 col-sm-4 col-sm-offset-4  col-md-3 col-md-offset-0">
-                            <img src={require("../../static/img1.jpg")} alt="" className="img-responsive img-circle" />
+                            <img src={require("../../static/img1.jpg")} className="img-responsive img-circle" />
                         </div>
                         <div className="col-xs-4 col-xs-offset-4 col-sm-4 col-sm-offset-4  col-md-3 col-md-offset-0">
-                            <img src={require("../../static/img1.jpg")} alt="" className="img-responsive img-circle" />
+                            <img src={require("../../static/img1.jpg")} className="img-responsive img-circle" />
                         </div>
                     </div>
                 </div>

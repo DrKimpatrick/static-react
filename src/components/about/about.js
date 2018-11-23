@@ -24,7 +24,7 @@ const About = () => {
 
         </div>
         <div className="col-xs-12 col-md-6">
-            <img src={require("../../static/aboutus.jpg")} alt="" className="img-responsive img-size" />
+            <img src={require("../../static/aboutus.jpg")} className="img-responsive img-size" />
         </div>
      </div>
    </div>
