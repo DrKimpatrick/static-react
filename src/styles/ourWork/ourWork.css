@@ -5,3 +5,17 @@
 .col-margin-bottom{
   margin-bottom: 20px;
 }
+
+.col-margin-top{
+  margin-top: 20px;
+}
+
+
+@media (max-width: 767px) {
+  .col-margin-top{
+    margin-top: 0;
+  }
+  .top-col-margin{
+    margin-top: 20px;
+  }
+}

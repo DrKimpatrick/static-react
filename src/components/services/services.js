@@ -4,10 +4,10 @@ import '../../styles/services/services.css';
 const Services = () => {
   return < div className="container services-margin">
               <div className="row">
+                  <div className="col-xs-12 text-center services-header"><h1 className="heading"><u>SERVICES</u></h1></div>
+              </div>
+              <div className="row">
                   <div className="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-                  <div className="row service-header">
-                      <div className="col-xs-12 text-center"><h1 className="heading"><u>SERVICES</u></h1></div>
-                  </div>
                   <div className="row">
                       <div className="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-0">
                           <img src={require("../../static/img1.jpg")} alt={"MotionGraphics"} className="img-responsive"/>

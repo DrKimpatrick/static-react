@@ -10,8 +10,8 @@ const ContactUs = () => {
                 </div>
                 <div className="row">
                     <div className="col-xs-12 col-sm-8 col-sm-offset-2">
-                        <div className="row work-row-margin">
-                            <div className="col-xs-12 col-sm-4 col-sm-offset-4">
+                        <div className="row">
+                            <div className="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
                                 <div className="contact-div"><h5><span  className="contact-list" id="email"/>team@creatures.africa</h5></div>
                                 <div className="contact-div"><h5><span className="contact-list" id="phone" /> +256 784 231 302</h5></div>
                                 <div className="contact-div">
@@ -25,7 +25,7 @@ const ContactUs = () => {
                         </div>
 
                         <div className="row">
-                            <div className="col-xs-12 col-sm-10 col-sm-offset-1 col-sm-8 col-sm-offset-2 text-center">
+                            <div className="col-xs-12 text-center">
                                 <p>
                                 Please note that Creatures Animation does not accept unsolicited
                                 submissions of creative materials

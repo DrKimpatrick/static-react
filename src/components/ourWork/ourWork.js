@@ -11,13 +11,13 @@ const OurWork = () => {
                     <div className="row">
                         <div className="col-xs-12">
                             <div className="row">
-                                <div className="col-xs-12 col-sm-4 col-margin-bottom">
+                                <div className="col-xs-12 col-sm-4 col-margin-bottom col-margin-top top-col-margin">
                                     <img src={require("../../static/img2.jpg")} alt={"image"} className="img-responsive" />
                                 </div>
-                                <div className="col-xs-12 col-sm-4 col-margin-bottom">
+                                <div className="col-xs-12 col-sm-4 col-margin-bottom col-margin-top">
                                     <img src={require("../../static/img2.jpg")} alt={"image"} className="img-responsive" />
                                 </div>
-                                <div className="col-xs-12 col-sm-4 col-margin-bottom">
+                                <div className="col-xs-12 col-sm-4 col-margin-bottom col-margin-top">
                                     <img src={require("../../static/img2.jpg")} alt={"image"} className="img-responsive" />
                                 </div>
                             </div>
