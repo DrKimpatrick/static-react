@@ -14,7 +14,7 @@ class App extends Component {
       <div className="App container-fluid">
         <Navbar />
         <Carousel />
-        <div className="black-color">
+        <div className="black-color" data-spy="scroll" data-target=".navbar" data-offset="50">
           <About />
           <Projects />
           <Services />

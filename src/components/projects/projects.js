@@ -2,7 +2,7 @@ import React from 'react';
 import '../../styles/projects/projects.css';
 
 const Projects = () => {
-  return <div className="container">
+  return <div className="container" id="projects">
   <div className="row">
       <div className="col-xs-12">
           <h1 className="heading"><u>PROJECTS</u></h1>

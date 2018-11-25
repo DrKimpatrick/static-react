@@ -2,7 +2,7 @@ import React from 'react';
 import '../../styles/about/about.css';
 
 const About = () => {
-  return <div className="container about-margin">
+  return <div className="container about-margin" id="about">
     <div className="row">
         <div className="col-xs-12 col-md-6">
             <h1 className="heading"><u>ABOUT US</u></h1>
